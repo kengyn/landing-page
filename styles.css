@@ -138,11 +138,46 @@ button {
   font-weight: bold;
 }
 
+/* css for bottom */
 .bot {
-  background-color: #3882f6;
+  background-color: white;
   color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+
+.signupcontain {
+  background-color: #3882f6;
+  width: 660px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin: 0 160px;
 }
 
 .bot button {
   border-color: white;
+  flex: 0 0 auto;
+}
+
+.actiontime {
+  margin-bottom: 0;
+  font-size: large;
+  font-weight: bold;
+}
+
+.signup p {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
