@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 header,
@@ -8,6 +9,18 @@ header,
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+/* css for header and top */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
 }
 
 .logo {
@@ -24,11 +37,27 @@ a,
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
+  width: 500px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 60px 60px 60px;
+}
+
+.placeholder {
+  width: 400px;
+  height: 180px;
+  background-color: #8a8c8f;
 }
 
 h1 {
   font-size: 48px;
   font-weight: bolder;
+  margin-bottom: 0;
 }
 
 button {
@@ -37,6 +66,8 @@ button {
   padding: 5px 20px;
   border-radius: 9px;
 }
+
+/* css for top middle */
 
 .topmid h2 {
   font-size: 36px;
@@ -58,4 +89,13 @@ button {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
+}
+
+.bot {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.bot button {
+  border-color: white;
 }
