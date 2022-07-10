@@ -83,14 +83,13 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 35px;
+  padding: 0px 160px 160px 160px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* align-items: center; */
   width: 150px;
   text-align: center;
 }
@@ -101,6 +100,7 @@ button {
 
 .topmid h2 {
   font-size: 36px;
+  padding-top: 60px;
 }
 
 .illustration {
