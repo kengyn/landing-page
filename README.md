@@ -1,3 +1,6 @@
 # landing-page
 
-creating a landing page design from the odin project using html and css
+### [Demo](https://kengyn.github.io/landing-page/)
+
+#### Description
+A landing page design using html and css. built mainly to practice using css flexbox.
